@@ -1,4 +1,4 @@
-import catchAsync from "../utils/catchasync.js";
+import catchAsync from "../utils/catchAsync.js";
 import * as authServices from "../services/authServices.js";
 
 export const userRegister = catchAsync(async (req, res) => {

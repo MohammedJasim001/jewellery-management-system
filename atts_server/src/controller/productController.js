@@ -1,4 +1,4 @@
-import catchAsync from "../utils/catchasync.js";
+import catchAsync from "../utils/catchAsync.js";
 import * as productServices from "../services/productServices.js";
 
 export const createProduct = catchAsync(async (req, res) => {
